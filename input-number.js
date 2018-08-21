@@ -18,6 +18,8 @@ Vue.component('input-number',{
 		}
 	},
 	data: function (){
-		return currentValue: this.value
+		return {
+			currentValue: this.value
+		}
 	}
 })
